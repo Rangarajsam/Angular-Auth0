@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="authApp">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="node_modules/angular-material/angular-material.css">
+    <title>Angular jS Auth</title>
+
+    <script type="text/javascript" src="https://cdn.auth0.com/js/lock/10.6/lock.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+
+<body ng-init="hello='Hello Rangaraj'" ng-cloak>
+
+    <md-content>
+        <toolbar></toolbar>
+        <div layout-padding>
+            <ui-view></ui-view>
+        </div>
+    </md-content>
+
+
+    <script type="text/javascript" src="node_modules/angular/angular.js"></script>
+    <script type="text/javascript" src="node_modules/angular-animate/angular-animate.js"></script>
+    <script type="text/javascript" src="node_modules/angular-aria/angular-aria.js"></script>
+    <script type="text/javascript" src="node_modules/angular-material/angular-material.js"></script>
+    <script type="text/javascript" src="node_modules/angular-jwt/dist/angular-jwt.js"></script>
+    <script type="text/javascript" src="node_modules/angular-storage/dist/angular-storage.js"></script>
+    <script type="text/javascript" src="node_modules/auth0-angular/build/auth0-angular.js"></script>
+    <script type="text/javascript" src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="components/toolbar/toolbar.dir.js"></script>
+    <script type="text/javascript" src="components/profile/profile.ctrl.js"></script>
+</body>
+
+</html>
